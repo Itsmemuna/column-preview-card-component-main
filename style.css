@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+svg{
+    padding-top: 35px;
+}
+h2{
+    margin: 30px 0;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 40px;
+}
+p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}
+.sedans{
+    background-color: #E28525;
+    color: #F2F2F2;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.sedans button{
+    color: #E28525;
+}
+.suvs{
+    background-color: #016972;
+    color: #F2F2F2;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.suvs button{
+    color: #016972;
+}
+.luxury{
+    background-color: #00403F;
+    color: #F2F2F2;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.luxury button{
+    color: #00403F;
+}
+section{
+    display: flex; /*This declaration is used to display the boxes in a horizontal line, without any space between them */
+    height: 450px;
+    width: 800px;
+    margin: 200px auto;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+}
+button{
+    margin-top: 60px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 30px;
+    border: color(srgb 255, 255, 255);
+    font-family: 'Lexend Deca';
+}
+.attribution{
+    margin-top: -200px;
+}
+#firstdiv{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; This is used to display the boxes in a horizontal line, with little space between them. */
+    /* display: none; This will hide the element and affect the layout */
+}
+#seconddiv{
+    border: 2px solid green;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; This is used to display the boxes in a horizontal line, with little space between them. */
+    /* display: none; This will hide the element and affect the layout */
+}
+#thirddiv{
+    border: 2px solid orange;
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; This is used to display the boxes in a horizontal line, with little space between them. */
+    /* display: none; This will hide the element and affect the layout */
+}
